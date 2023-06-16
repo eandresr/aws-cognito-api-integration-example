@@ -1,0 +1,8 @@
+domain                      = "example.com"
+regional_wildcard_acm_arn   = "arn:aws:acm:eu-west-1:000000000000:certificate/00000000-0000-0000-0000-000000000000"
+cloudfront_wildcard_acm_arn = "arn:aws:acm:us-east-1:000000000000:certificate/000000000000-0000-0000-0000-000000000000"
+cognito_callback_urls       = ["https://www1.example.com/index.html"]
+cloudfront_url              = "www1.example.com"
+font_bucket_name            = "example-examplebucket"
+region                      = "eu-west-1"
+profile                     = "default"
